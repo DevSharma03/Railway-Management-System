@@ -11,16 +11,16 @@ A **full-fledged Railway Management System** built with **Spring Boot & Java**, 
 ---
 
 ## 📑 Table of Contents
-- [🚀 Demo](#-demo)
-- [✨ Features](#-features)
-- [🛠 Tech Stack](#-tech-stack)
-- [⚙️ Installation](#-installation)
-- [🎯 Usage](#-usage)
-- [🛡️ Security](#-security)
-- [🚀 API Endpoints](#-api-endpoints)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
-- [📬 Contact](#-contact)
+- [🚀 Demo]
+- [✨ Features]
+- [🛠 Tech Stack]
+- [⚙️ Installation]
+- [🎯 Usage]
+- [🛡️ Security]
+- [🚀 API Endpoints]
+- [🤝 Contributing]
+- [📜 License]
+- [📬 Contact]
 
 ---
 
@@ -72,20 +72,54 @@ Before you begin, ensure you have the following installed:
 - **MySQL/PostgreSQL**
 - **Postman (for API testing, optional)**
 
-### **Setup Instructions**
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/DevSharma03/Railway-Management-System.git
-   cd Railway-Management-System
+Here's your **Markdown file** with **section names inside** for clarity:  
 
-2.  ⚙️ Configure the Database
+## 🔧 Setup Instructions
 
-Update the `src/main/resources/application.properties` file with your database credentials:
+### 1️⃣ Clone the Repository  
+Run the following commands to clone the repository and navigate into the project directory:  
+```bash
+git clone https://github.com/DevSharma03/Railway-Management-System.git
+cd Railway-Management-System
+```
+
+---
+
+### 2️⃣ ⚙️ Configure the Database  
+
+Edit the **`application.properties`** file located at `src/main/resources/application.properties` and update it with your database credentials:  
 
 ```properties
 # Database Configuration
-spring.datasource.url=Your URL
+spring.datasource.url=Your URL  # Example: jdbc:mysql://localhost:3306/railway_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
+```
+
+---
+
+### 3️⃣ 🚀 Build and Run the Application  
+
+Run the following commands to build and start the application:  
+
+```bash
+# Build the project
+mvn clean install
+
+# Run the application
+mvn spring-boot:run
+```
+
+---
+
+### 4️⃣ 🌐 Access the Application  
+
+Once the application is running, you can access the following:  
+
+- **Backend API:** [`http://localhost:8080/api`](http://localhost:8080/api)  
+- **Admin Panel (if applicable):** [`http://localhost:8080/admin`](http://localhost:8080/admin)  
+```
+
+This **includes section names inside the instructions** for better readability. 🚀 Let me know if you need any modifications! 😃
 
 
