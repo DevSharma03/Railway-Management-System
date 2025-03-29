@@ -2,12 +2,11 @@
 
 A **full-fledged Railway Management System** built with **Spring Boot & Java**, designed for seamless train reservations, scheduling, and ticket management. This system provides **secure authentication, role-based access**, and an intuitive interface for both **passengers** and **administrators**.  
 
-![GitHub stars](https://img.shields.io/github/stars/DevSharma03/Railway-Management-System?style=social)  
-![GitHub forks](https://img.shields.io/github/forks/DevSharma03/Railway-Management-System?style=social)  
-![GitHub license](https://img.shields.io/github/license/DevSharma03/Railway-Management-System)  
-![Java](https://img.shields.io/badge/Java-17-blue?logo=openjdk)  
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.3-green?logo=springboot)  
-
+![GitHub stars](https://img.shields.io/github/stars/DevSharma03/Railway-Management-System?style=social)
+![GitHub forks](https://img.shields.io/github/forks/DevSharma03/Railway-Management-System?style=social)
+![GitHub license](https://img.shields.io/github/license/DevSharma03/Railway-Management-System)
+![Java](https://img.shields.io/badge/Java-17-blue?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.3-green?logo=spring)
 ---
 
 ## 📑 Table of Contents
