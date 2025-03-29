@@ -11,13 +11,13 @@ A **full-fledged Railway Management System** built with **Spring Boot & Java**, 
 ---
 
 ## 📑 Table of Contents
-- [🚀 Demo](#-demo)
-- [✨ Features](#-features)
-- [🛠 Tech Stack](#-tech-stack)
-- [⚙️ Installation](#-installation)
-- [🎯 Usage](#-usage)
-- [📜 License](#-license)
-- [📬 Contact](#-contact)
+- [🚀 Demo]
+- [✨ Features]
+- [🛠 Tech Stack]
+- [⚙️ Installation]
+- [🎯 Usage]
+- [📜 License]
+- [📬 Contact]
 
 ---
 
