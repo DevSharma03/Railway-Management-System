@@ -78,7 +78,42 @@ Run the following commands to clone the repository and navigate into the project
 ```bash
 git clone https://github.com/DevSharma03/Railway-Management-System.git
 cd Railway-Management-System
+```
 
 
+### 2️⃣ ⚙️ Configure the Database  
+Edit the **application.properties** file located at src/main/resources/application.properties and update it with your database credentials:  
+```properties
+# Database Configuration
+spring.datasource.url=Your URL  # Example: jdbc:mysql://localhost:3306/railway_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+```
 
 
+### 3️⃣ 🚀 Build and Run the Application
+Run the following commands to build and start the application:
+```bash
+# Build the project
+mvn clean install
+
+# Run the application
+mvn spring-boot:run
+```
+
+
+### 4️⃣ 🌐 Access the Application
+Once the application is running, you can access:
+- **Backend API:** [http://localhost:8080/api](http://localhost:8080/api)  
+- **Admin Panel (if applicable):** [http://localhost:8080/admin](http://localhost:8080/admin)
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+For any inquiries, feel free to reach out via work.devashishsharma09@gmail.com or open an issue. 
+Let me know if you need any more changes! 🚀😊
