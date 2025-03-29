@@ -4,7 +4,7 @@ A **full-fledged Railway Management System** built with **Spring Boot & Java**, 
 
 ![GitHub stars](https://img.shields.io/github/stars/DevSharma03/Railway-Management-System?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/DevSharma03/Railway-Management-System?style=social)
-![GitHub license](https://img.shields.io/github/license/DevSharma03/Railway-Management-System)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Java](https://img.shields.io/badge/Java-17-blue?logo=java)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.3-green?logo=spring)
 ---
