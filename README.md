@@ -78,3 +78,14 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/DevSharma03/Railway-Management-System.git
    cd Railway-Management-System
 
+2.  ⚙️ Configure the Database
+
+Update the `src/main/resources/application.properties` file with your database credentials:
+
+```properties
+# Database Configuration
+spring.datasource.url=Your URL
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+
+
