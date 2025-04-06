@@ -1,4 +1,4 @@
-# 🚆 Railway Management System
+# 🚆 Railway Management System 
 
 A **full-fledged Railway Management System** built with **Spring Boot & Java**, designed for seamless train reservations, scheduling, and ticket management. This system provides **secure authentication, role-based access**, and an intuitive interface for both **passengers** and **administrators**.  
 
