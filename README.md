@@ -21,15 +21,6 @@ A **full-fledged Railway Management System** built with **Spring Boot & Java**, 
 
 ---
 
-## 🚀 Demo
-
-🔗 **Live Demo:** *Coming Soon*  
-
-📸 **Screenshots:**  
-![Project Screenshot](https://your-image-url.com)  
-*(Replace with actual screenshots or a GIF showcasing the UI.)*
-
----
 
 ## ✨ Features
 
