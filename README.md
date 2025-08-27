@@ -1,109 +1,99 @@
 # 🚆 Railway Management System
 
-A **full-fledged Railway Management System** built with **Spring Boot & Java**, designed for seamless train reservations, scheduling, and ticket management. This system provides **secure authentication, role-based access**, and an intuitive interface for both **passengers** and **administrators**.  
-
-![GitHub stars](https://img.shields.io/github/stars/DevSharma03/Railway-Management-System?style=social)
-![GitHub forks](https://img.shields.io/github/forks/DevSharma03/Railway-Management-System?style=social)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Java](https://img.shields.io/badge/Java-17-blue?logo=java)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.3-green?logo=spring)
+A **Railway Management System** built with **Spring Boot** and **Java** for train reservations, scheduling, and ticket management. This system provides authentication, train searching, and a basic web interface for both passengers and administrators.
 
 ---
 
-## 📑 Table of Contents 
-- [🚀 Demo]
-- [✨ Features]
-- [🛠 Tech Stack]
-- [⚙️ Installation]
-- [🎯 Usage]
-- [📜 License]
-- [📬 Contact]
+## 📑 Table of Contents
+- Features
+- Tech Stack
+- Installation & Setup
+- Usage
+- License
+- Contact
 
 ---
-
 
 ## ✨ Features
 
-✅ **User Authentication & Role-based Access Control (RBAC)**  
-✅ **Train Schedule Management** – View available trains & timings  
-✅ **Ticket Booking & Cancellation** – Seamless reservation system  
-✅ **Admin Dashboard** – Manage trains, routes, and user requests  
-✅ **Secure API with JWT Authentication**  
-✅ **Real-time Ticket Availability Tracking**  
-✅ **RESTful API Integration for External Services**  
+- **Train Schedule Management:** Search for trains by source and destination, view train details.
+- **Ticket Booking (Basic):** Book tickets for available trains (basic booking logic).
+- **User Authentication:** Role-based access and login system (via Spring Security).
+- **Simple Admin Management:** Add/edit/delete trains, basic management features.
+- **Database Integration:** Persistent train and ticket data with JPA/Hibernate.
+- **Basic Frontend:** HTML/JavaScript interface for listing trains and booking tickets.
 
 ---
 
 ## 🛠 Tech Stack
 
-| Technology | Description |
-|------------|------------|
-| **Java 17+** | Backend language |
-| **Spring Boot** | Backend framework |
-| **Spring Security** | Authentication & authorization |
-| **Hibernate & JPA** | ORM for database interactions |
-| **MySQL/PostgreSQL** | Database management |
-| **Maven** | Build automation |
-| **Swagger** | API documentation |
-| **React.js (Optional)** | Frontend framework |
+| Technology           | Description                    |
+|----------------------|--------------------------------|
+| **Java 17+**         | Backend language               |
+| **Spring Boot**      | Backend framework              |
+| **Spring Security**  | Authentication                 |
+| **Hibernate & JPA**  | ORM for database interactions  |
+| **MySQL/PostgreSQL** | Database management            |
+| **Maven**            | Build automation               |
+| **Thymeleaf**        | Server-side HTML templates     |
+| **HTML/JavaScript**  | Basic frontend                 |
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
-### **Prerequisites**
-Ensure you have the following installed:
+### Prerequisites
+- Java 17+
+- Spring Boot
+- Maven
+- MySQL or PostgreSQL
 
-- **Java 17+**
-- **Spring Boot**
-- **Maven**
-- **MySQL/PostgreSQL**
-- **Postman (for API testing, optional)**
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/DevSharma03/Railway-Management-System.git
+   cd Railway-Management-System
+   ```
+
+2. **Configure the Database**
+   Edit `src/main/resources/application.properties` with your DB credentials:
+   ```properties
+   spring.datasource.url=jdbc:mysql://localhost:3306/railway_db
+   spring.datasource.username=root
+   spring.datasource.password=yourpassword
+   ```
+
+3. **Build & Run**
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+   ```
+
+4. **Access the Application**
+   - Backend API: [http://localhost:8080/api](http://localhost:8080/api)
+   - Admin Panel (if implemented): [http://localhost:8080/admin](http://localhost:8080/admin)
 
 ---
 
-### 🔧 Setup Instructions
+## 🎯 Usage
 
-### 1️⃣ Clone the Repository  
-Run the following commands to clone the repository and navigate into the project directory:  
-```bash
-git clone https://github.com/DevSharma03/Railway-Management-System.git
-cd Railway-Management-System
-```
-
-
-### 2️⃣ ⚙️ Configure the Database  
-Edit the **application.properties** file located at src/main/resources/application.properties and update it with your database credentials:  
-```properties
-# Database Configuration
-spring.datasource.url=Your URL  # Example: jdbc:mysql://localhost:3306/railway_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-```
-
-
-### 3️⃣ 🚀 Build and Run the Application
-Run the following commands to build and start the application:
-```bash
-# Build the project
-mvn clean install
-
-# Run the application
-mvn spring-boot:run
-```
-
-
-### 4️⃣ 🌐 Access the Application
-Once the application is running, you can access:
-- **Backend API:** [http://localhost:8080/api](http://localhost:8080/api)  
-- **Admin Panel (if applicable):** [http://localhost:8080/admin](http://localhost:8080/admin)
+- **Passenger:** Search trains, book tickets, view schedules.
+- **Admin:** Manage trains and schedules.
 
 ---
 
 ## 📜 License
+
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
+## 📬 Contact
+
+For inquiries, reach out at [work.devashishsharma09@gmail.com](mailto:work.devashishsharma09@gmail.com)  
+Or open an issue on GitHub.
+
 
 ## 📬 Contact
 For any inquiries, feel free to reach out via work.devashishsharma09@gmail.com or open an issue. 
